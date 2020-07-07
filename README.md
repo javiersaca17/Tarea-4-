@@ -81,7 +81,23 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
    
    ## Punto 5: Demodular y decodificar la señal y hacer un conteo de la tasa de error de bits (BER, bit error rate) para cada nivel SNR.
    
-   Para este punto primero debe de cumplirse que  al poder detectar en la señal ruidosa el comportamiento de la señal original. 
-   
- 
+   Para este punto primero debe de cumplirse que  al poder detectar en la señal ruidosa el comportamiento de la señal original. Para lo cual se calculo la pseudo energia en la onda original y posteriormente se calculo  la energia en la señal ruidosa, esto se trabajo con un ciclo (for) donde si la energia de la señal ruidosa es menor o igual al 50 % de la energia original en ese caso en la señal original se genera un uno , si se da la situación que es menor entonces se da el caso contrario de un cero. El código que se realizo para cada uno de los distintos niveles de SNR, fue el siguiente en el ejemplo se muestra para el caso de -2dB:
+
+     #Calculamos la pseudo energia de la onda original
+      Es = np.sum(port**2)
+          # Inicialización del vector de bits recibidos para Rx1
+      bitsRx1 = np.zeros(bits.shape)
+
+     # Decodificación de la señal por detección de energía
+      for s, m in enumerate(bits):
+        # Producto interno de dos funciones
+      Ep = np.sum(Rx1[s*pto:(s+1)*pto] * port) 
+       if Ep > Es/2:
+       bitsRx1[s] = 1
+         else:
+        bitsRx1[s] = 0
+
+      err1 = np.sum(np.abs(bits - bitsRx1))
+          BER1 = err1/N
+       print('Cuando SNR es -2 dB ',  'el ruido es: ', BER1)
  
