@@ -38,12 +38,10 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
  
  Para hacer la simulación del canal de ruido blanco gaussiano hacemos la lista de los seis valores posibles de la realción de señal a ruido (SNR) que va de entero a entero empezando por los -2 dB hasta los 3dB, pra luego calcular la desviación estandar del ruido a través del siguiente código: 
  
-     # Desviación estándar del ruido
+     # Desviación estándar del ruido:
+      desvest = np.sqrt(pruido)
   
-  desvest = np.sqrt(pruido)
-  
-  # Creando  ruido (Pn = sigma^2)
-  
-  ruido = np.random.normal(0, desvest, signale.shape)
+     # Creando  ruido (Pn = sigma^2):
+      ruido = np.random.normal(0, desvest, signale.shape)
  
  
