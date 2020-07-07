@@ -32,3 +32,9 @@ Donde la variable de "port" es la onda portadora que se asumimos que tiene un co
               pprom = integrate.trapz(potinst, time) / (N * T)
               
 Como resultado se obtuvo que la potencia promedio generada por la señal modulada es de aproximandamente 0.49 Watts.
+
+
+ ## Punto 3: Simular un canal ruidoso del tipo AWGN (ruido aditivo blanco gaussiano) con una relación señal a ruido (SNR) desde -2 hasta 3 dB.
+ 
+ 
+ 
