@@ -54,4 +54,8 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
  
   ![enter image description here](/densidadespectral.png)
  
+ Posteriormente usando el método de Welch encontramos la gráficas correspondientes para los diferentes niveldes de SNR establecidos previamente, el correspondiente para un SNR de -2 dB es la siguiente: 
+ 
+   ![enter image description here](/densidad-2dB.png)
+ 
  
