@@ -9,9 +9,10 @@ Asignaciones sobre la Tarea 4 MPSS
  ![enter image description here](/portadora.png)
 
 Con lo cual ya que se tiene la onda portadora tenemos que aplicarle la modulación tipo BPSK, con lo cual para dicho caso creamos en Repl.it (código) la variable "signale" :
-#Hacemos la respectiva creación del esquema de modulación tipo BPSK cpn un ciclo (for)
-for s, m in enumerate(bits):
-    if m == 1:
-        signale[s*pto:(s+1)*pto] = port
-    else: 
-        signale[s*pto:(s+1)*pto] = -port
+        #Hacemos la respectiva creación del esquema de modulación tipo BPSK cpn un ciclo (for):
+        
+            for s, m in enumerate(bits):
+             if m == 1:
+             signale[s*pto:(s+1)*pto] = port
+            else: 
+            signale[s*pto:(s+1)*pto] = -port
