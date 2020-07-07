@@ -44,4 +44,7 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
      # Creando  ruido (Pn = sigma^2):
       ruido = np.random.normal(0, desvest, signale.shape)
  
+  Las señales con ruido  para  los seis valores necesarios de SNR se muestra en la siguiente imagen:
+  
+  ![enter image description here](/onda señal con ruido.png)
  
