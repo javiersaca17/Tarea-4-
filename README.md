@@ -48,3 +48,10 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
   
   ![enter image description here](/ruido.png)
  
+ ## Punto 4: Graficar la densidad espectral de potencia de la señal con el método de Welch (SciPy), antes y después del canal ruidoso.
+ 
+ Primero graficamos antes que la señal entre al canal ruidoso, dicha gráfica es la siguiente: 
+ 
+  ![enter image description here](/densidadespectral.png)
+ 
+ 
