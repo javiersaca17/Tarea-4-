@@ -1,5 +1,5 @@
 # Tarea-4-
-## Javier Elias Saca, B66418
+## Javier Elias Saca (SLV), B66418
 Asignaciones sobre la Tarea 4 MPSS
 
 ## Punto 1: Crear un esquema de modulación BPSK para los bits presentados. Esto implica asignar una forma de onda sinusoidal normalizada (amplitud unitaria) para cada bit y luego una concatenación de todas estas formas de onda.
@@ -22,3 +22,11 @@ Donde la variable de "port" es la onda portadora que se asumimos que tiene un co
  ![enter image description here](/modulada.png)
  
  Con la gráfica anterior podemos afirmar que la modulación se realizo de manera satisfactoria dado que se nota el cambio en la onda sinusoidal con lo cual implicitamente hay un cambio en los bits.
+ 
+ ## Punto 2: Calcular la potencia promedio de la señal modulada generada.
+ 
+ Para calcular la potencia promedio que se genero de la señal anterior primero se procedio a calcular la potencia instantanea que para ello elevamos la magnitud de la señal al cuadrado, teniendo esto integramos el resultado y se dividio por el periodo (T) multiplicando por los 10,000 bits que componen al arichivo, a nivel de código se muestra asi: 
+ 
+ 
+             #Calculamos la potencia promedio a partir de la instantanea que ya la calculamos anteriormente
+              pprom = integrate.trapz(potinst, time) / (N * T)
