@@ -105,10 +105,12 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
    
    | SNR | Error |
 |:-:|:-:|
-| SNR = -2 dB | 0.0008 |
-| SNR = -1 dB | 0.0003 |
-| SNR = 0 dB| 0.0001 |
-| SNR = 1 dB| 0.0 |
-| SNR = 2 dB| 0.0 |
-| SNR = 3 dB | 0.0 |
+| -2 dB | 0.0008 |
+|  -1 dB | 0.0003 |
+|  0 dB| 0.0001 |
+|  1 dB| 0.0 |
+|  2 dB| 0.0 |
+|  3 dB | 0.0 |
+
+## Punto 6: Graficar BER versus SNR. 
  
