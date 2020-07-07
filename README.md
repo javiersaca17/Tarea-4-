@@ -112,5 +112,11 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
 |  2 dB| 0.0 |
 |  3 dB | 0.0 |
 
+Como se observa, conforme aumenta el valor de SNR, la tasa de error disminuye hasta ser cero. 
+
 ## Punto 6: Graficar BER versus SNR. 
+
+La gráfica obtenidada al colocar BER vs SNR es la siguiente: 
+
+![enter image description here](/BERvsSNR.png)
  
