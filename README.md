@@ -64,14 +64,18 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
    
    Para un SNR de 0 dB:
    
-     ![enter image description here](/densidad0dB.png)
+   ![enter image description here](/densidad0dB.png)
      
    Para un SNR de 1 dB:
    
-      ![enter image description here](/densidad1dB.png)
+   ![enter image description here](/densidad1dB.png)
       
    Para un SNR de 2 dB: 
    
-      ![enter image description here](/densidad2dB.png)
+   ![enter image description here](/densidad2dB.png)
+   
+   Para un SNR de 3 dB:
+   ![enter image description here](/densidad3dB.png)
+   
  
  
