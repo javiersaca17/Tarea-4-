@@ -46,5 +46,5 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
  
   Las señales con ruido  para  los seis valores necesarios de SNR se muestra en la siguiente imagen:
   
-  ![enter image description here](/onda señal con ruido.png)
+  ![enter image description here](/ruido.png)
  
