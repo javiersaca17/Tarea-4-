@@ -19,3 +19,4 @@ Con lo cual ya que se tiene la onda portadora tenemos que aplicarle la modulaci�
             
 Donde la variable de "port" es la onda portadora que se asumimos que tiene un comportamiento parecido a una onda sinusoidal, con lo cual obtenemos la gráfica para el caso de los primeros 10 bits de la lista de los 10,000 bits disponibles, con lo cual la gráfica obtenida con la aplicación de la mosulación de tipo BPSK es la siguiente: 
 
+ ![enter image description here](/modulada.png)
