@@ -36,5 +36,14 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
 
  ## Punto 3: Simular un canal ruidoso del tipo AWGN (ruido aditivo blanco gaussiano) con una relación señal a ruido (SNR) desde -2 hasta 3 dB.
  
+ Para hacer la simulación del canal de ruido blanco gaussiano hacemos la lista de los seis valores posibles de la realción de señal a ruido (SNR) que va de entero a entero empezando por los -2 dB hasta los 3dB, pra luego calcular la desviación estandar del ruido a través del siguiente código: 
+ 
+     # Desviación estándar del ruido
+  
+  desvest = np.sqrt(pruido)
+  
+  # Creando  ruido (Pn = sigma^2)
+  
+  ruido = np.random.normal(0, desvest, signale.shape)
  
  
