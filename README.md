@@ -100,4 +100,15 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
       err1 = np.sum(np.abs(bits - bitsRx1))
           BER1 = err1/N
        print('Cuando SNR es -2 dB ',  'el ruido es: ', BER1)
+       
+   El procedimiento del código es similar para los casos siguientes de SNR de -1 dB a 3dB, a continuación presentaremos un consolidado de la tasa de error de bits que se obtuvo para cada uno de los respectivos valores de SNR: 
+   
+   | SNR | Error |
+|:-:|:-:|
+| SNR = -2 dB | 0.0008 |
+| SNR = -1 dB | 0.0003 |
+| SNR = 0 dB| 0.0001 |
+| SNR = 1 dB| 0.0 |
+| SNR = 2 dB| 0.0 |
+| SNR = 3 dB | 0.0 |
  
