@@ -17,7 +17,7 @@ Con lo cual ya que se tiene la onda portadora tenemos que aplicarle la modulaci�
             else: 
             signale[s*pto:(s+1)*pto] = -port
             
-Donde la variable de "port" es la onda portadora que se asumimos que tiene un comportamiento parecido a una onda sinusoidal, con lo cual obtenemos la gráfica para el caso de los primeros 10 bits de la lista de los 10,000 bits disponibles, con lo cual la gráfica obtenida con la aplicación de la mosulación de tipo BPSK es la siguiente: 
+Donde la variable de "port" es la onda portadora que se asumimos que tiene un comportamiento parecido a una onda sinusoidal, con lo cual obtenemos la gráfica para el caso de los primeros 10 bits de la lista de los 10,000 bits disponibles, con lo cual la gráfica obtenida con la aplicación de la modulación de tipo BPSK es la siguiente: 
 
  ![enter image description here](/modulada.png)
  
@@ -119,4 +119,5 @@ Como se observa, conforme aumenta el valor de SNR, la tasa de error disminuye ha
 La gráfica obtenidada al colocar BER vs SNR es la siguiente: 
 
 ![enter image description here](/BERvsSNR.png)
- 
+
+Es importante mencionar que los valores obtenidos para la tasa de error de bits (BER) y por consiguiente estas gráficas, pueden variar de acuerdo a cada simulación, puesto que dependen del comportamiento que tenga el ruido y este se está creando de forma aleatoria cada vez que se corre el programa de Repl.it
