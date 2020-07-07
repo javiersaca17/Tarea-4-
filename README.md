@@ -78,5 +78,10 @@ Como resultado se obtuvo que la potencia promedio generada por la señal modulad
    
    ![enter image description here](/densidad3dB.png)
    
+   
+   ## Punto 5: Demodular y decodificar la señal y hacer un conteo de la tasa de error de bits (BER, bit error rate) para cada nivel SNR.
+   
+   Para este punto primero debe de cumplirse que  al poder detectar en la señal ruidosa el comportamiento de la señal original. 
+   
  
  
