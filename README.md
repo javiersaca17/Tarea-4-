@@ -30,3 +30,5 @@ Donde la variable de "port" es la onda portadora que se asumimos que tiene un co
  
              #Calculamos la potencia promedio a partir de la instantanea que ya la calculamos anteriormente
               pprom = integrate.trapz(potinst, time) / (N * T)
+              
+Como resultado se obtuvo que la potencia promedio generada por la señal modulada es de aproximandamente 0.49 Watts.
